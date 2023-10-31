@@ -1,0 +1,79 @@
+.nav {
+    justify-content: space-between;
+    background-color: #302e2e;
+    
+    border: 2px solid black ;
+    border-radius: 10px;
+  }
+  
+  .nav h1 {
+    color: rgb(211, 211, 211);
+    margin: 0;
+    font-size: 40px;
+  }
+  .nav .nav-search {
+    flex: 1;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5px;
+  }
+  
+  .nav .nav-search input {
+      flex: 1;
+      color: rgb(211, 211, 211);
+      border: 1px solid rgb(211, 211, 211);
+      height: 39px;
+      border-right: none;
+  }
+  
+  .nav .nav-search button{
+      color: rgb(211, 211, 211);
+      border: 1px solid rgb(211, 211, 211);
+      height: 39px;
+  }
+  
+  .nav ul {
+      display: inline-flex;
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+  }
+  
+  .nav ul li{
+      padding-left: 15px;
+      padding-top: 15px;
+  }
+  
+  .nav ul a {
+      text-decoration: none;
+      color: rgb(211, 211, 211);
+      cursor: pointer;
+  }
+.nav ul li a:hover {
+  text-decoration: underline;
+}
+
+  
+  h1 a{
+    color: rgb(211, 211, 211);
+    text-decoration: none;
+  }
+  
+  .suggested-result{
+    position: absolute;
+    top: 40px;
+    z-index: 10;
+    display: list-item !important;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    width: 300px;
+  }
+  .suggested-result li {
+    padding:5px;
+    border: 1px solid #ddd;
+  }
+  .suggested-result  li a{
+    cursor: pointer;
+    color: rgb(87, 85, 88);
+  }

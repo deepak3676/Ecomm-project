@@ -1,0 +1,166 @@
+{
+  "seller": [
+    {
+      "name": "Drishti arora",
+      "email": "aroradrishti74@gmail.com",
+      "password": "Dhrithiya1348",
+      "id": 1
+    },
+    {
+      "name": "Divyanshu rawat",
+      "email": "d.rawat2002@gmail.com",
+      "password": "Ryang0sl!ng",
+      "id": 2
+    },
+    {
+      "name": "Karlos reuben largo afonso",
+      "email": "karlos@gmail.com",
+      "password": "12345",
+      "id": 3
+    },
+    {
+      "name": "Divyanshu",
+      "email": "divi74@gmail.com",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "name": "sid",
+      "email": "sad@gmail.com",
+      "password": "123456",
+      "id": 5
+    },
+    {
+      "name": "Upasana",
+      "email": "up@gmail.com",
+      "password": "abc",
+      "id": 6
+    }
+  ],
+  "products": [
+    {
+      "name": "Googel pixel 8 pro",
+      "price": "106000",
+      "category": "Mobile",
+      "color": "Black",
+      "description": "Meet Pixel 8 and Pixel 8 Pro, engineered by Google and built with AI at the center for a more helpful and personal experience. ",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQYMoKcpgl0O_ormpaz_k0xgEdO8xunGYY4wz_czdqaoDNJbHLLHK6PcHXqFwX2d8sd6nQmDOMatFkWCg9_SsbPzePMtAfQs4c37vCmtZ4o&usqp=CAE",
+      "id": 4
+    },
+    {
+      "name": "I phone 15",
+      "price": "79999",
+      "category": "Mobile",
+      "color": "Black",
+      "description": "Dynamic Island bubbles up alerts and Live Activities — so you don’t miss them while you’re doing something else. You can track your next ride, see who’s calling, check your flight status and so much more.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReiK3wTmdw7C3LsldaW_gAr7c5pW8PP7XitLrLXYFK3jKQhvGM2VyhyF9l9MDM_-_TxNs&usqp=CAU",
+      "id": 5
+    },
+    {
+      "name": "MSI GF63 Thin 10SCXR-1617IN",
+      "price": "61,990",
+      "category": "Laptop",
+      "color": "Black",
+      "description": "Key Features\nDisplay Size -15.6 Inches\nProcessor - Intel Core i7-10750H (10th Gen)\nGraphic Processor -NVIDIA GeForce GTX 1650 Max Q",
+      "image": "https://asset.msi.com/resize/image/global/product/product_16897536329f6c3d3212dbe29e26668496051b3db2.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+      "id": 6
+    },
+    {
+      "name": "Samsung galaxy S23 Ultra",
+      "price": "125000",
+      "category": "Mobile",
+      "color": "black",
+      "description": "Ultra's striking symmetrical design returns with one major difference: recycled and eco-conscious materials.1, 2 From the metal frame to the glass finish, it's polished with fresh new colors inspired by nature.3, 4",
+      "image": "https://m.media-amazon.com/images/I/61imYpK33qL.jpg",
+      "id": 7
+    },
+    {
+      "name": "ASUS Gaming F571",
+      "price": "70990",
+      "category": "Laptop",
+      "color": "black",
+      "description": "ASUS F571 is powered by a choice of Intel® processors to give you smooth and responsive computing performance. With up to NVIDIA® GeForce® GTX 1650 discrete graphics, up to 8GB RAM, and Windows 10 Home, ASUS F571 is an ideal daily computing platform.",
+      "image": "https://m.media-amazon.com/images/I/41bDB+GKy6L.jpg",
+      "id": 8
+    },
+    {
+      "name": "VIvo z1 pro",
+      "price": "15000",
+      "category": "Mobile",
+      "color": "black",
+      "description": "Watch high-quality movies seamlessly, play graphics-rich games and do a lot more on the Vivo Z1Pro. Its 16.59 cm (6.53) FHD+ Display delivers vibrant visuals. Thanks to its AI Triple Rear Camera, you can capture impressive portraits and pictures of landscapes. You can also take the selfie game a notch higher with the 32 MP In-Display Front Camera.",
+      "image": "https://rukminim2.flixcart.com/image/850/1000/k51cpe80pkrrdj/mobile/f/f/c/vivo-z1pro-vivo-1951-pd1911f-ex-original-imafhmyajjs7yfbc.jpeg?q=90",
+      "id": 9
+    }
+  ],
+  "users": [
+    {
+      "name": "Karlos reuben largo afonso",
+      "email": "karlos@gmail.com",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "name": "Deepak",
+      "email": "divi74@gmail.com",
+      "password": "Ryang0sl!ng",
+      "id": 2
+    },
+    {
+      "name": "Divya",
+      "email": "divya@gmail.com",
+      "password": "1234567890",
+      "id": 3
+    },
+    {
+      "name": "yashasvie",
+      "email": "yashasvie@gmail.com",
+      "password": "1234567890",
+      "id": 4
+    }
+  ],
+  "cart": [
+    {
+      "name": "MSI GF63 Thin 10SCXR-1617IN",
+      "price": "61,990",
+      "category": "Laptop",
+      "color": "Black",
+      "description": "Key Features\nDisplay Size -15.6 Inches\nProcessor - Intel Core i7-10750H (10th Gen)\nGraphic Processor -NVIDIA GeForce GTX 1650 Max Q",
+      "image": "https://asset.msi.com/resize/image/global/product/product_16897536329f6c3d3212dbe29e26668496051b3db2.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+      "quantity": 1,
+      "productId": 6,
+      "userId": null,
+      "id": 3
+    },
+    {
+      "name": "Googel pixel 8 pro",
+      "price": "106000",
+      "category": "Mobile",
+      "color": "Black",
+      "description": "Meet Pixel 8 and Pixel 8 Pro, engineered by Google and built with AI at the center for a more helpful and personal experience. ",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQYMoKcpgl0O_ormpaz_k0xgEdO8xunGYY4wz_czdqaoDNJbHLLHK6PcHXqFwX2d8sd6nQmDOMatFkWCg9_SsbPzePMtAfQs4c37vCmtZ4o&usqp=CAE",
+      "quantity": 1,
+      "productId": 4,
+      "userId": null,
+      "id": 8
+    }
+  ],
+  "orders": [
+    {
+      "email": "karlos@gmail.com",
+      "address": "gurugram, sector 13",
+      "contact": "9027192988",
+      "totalPrice": 106100,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "email": "d.rawat2002@gmail.com",
+      "address": "dddeee",
+      "contact": "3423423424",
+      "totalPrice": 186099,
+      "userId": 2,
+      "id": 2
+    }
+  ]
+}

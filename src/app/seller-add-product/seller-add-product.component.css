@@ -1,0 +1,16 @@
+.form-input{
+    margin:10px;
+    height: 40px;
+    border: 1px black solid;
+    border-radius: 15px;
+}
+.add-product{
+    color: blueviolet;
+    text-align: center;
+    margin: 10px;
+}
+.form-button{
+    margin:10px;
+    color: blueviolet;
+    border-radius: 10px;
+}

@@ -1,0 +1,55 @@
+<div class="seller-auth">
+    <div *ngIf="!showLogin" class="sign-up">
+        <form #sellerSignUp="ngForm" (ngSubmit)="signUp(sellerSignUp.value)" class="common-form">
+            <h1>Seller Sign Up Page</h1><br><br>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name"  name="name" class="form-input"
+                    placeholder="Enter Name" ngModel required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" class="form-input"
+                    placeholder="Enter Email Id" ngModel required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" class="form-input"
+                    placeholder="Enter Password" ngModel required>
+            </div>
+
+            <button type="submit" class="btn btn-primary form-button">Sign Up</button><br><br>
+            <h6>====already have an account====</h6><br>
+            <button type="submit" class="btn btn-secondary form-button"  (click)="openLogin()" routerLink="/login">Log IN</button>
+        </form>
+    </div>
+
+
+
+    <!-- login area -->
+    <div class="seller-auth">
+        <div *ngIf="showLogin" class="login">
+            <form #sellerLogin="ngForm" (ngSubmit)="login(sellerLogin.value)" class="common-form">
+                <h1>Seller Log in Page</h1><br><br>
+                <p>{{authError}}</p>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" class="form-input"
+                        placeholder="Enter Email Id" ngModel required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" class="form-input"
+                        placeholder="Enter Password" ngModel required>
+                </div>
+    
+                <button type="submit" class="btn btn-primary form-button">Log In</button><br><br>
+                <h6>====Don't have an account====</h6><br>
+                <button type="submit" class="btn btn-secondary form-button" (click)="openSignup()" routerLink="/signUp">Sign up</button>
+            </form>
+        </div>
+    </div>
+</div>
